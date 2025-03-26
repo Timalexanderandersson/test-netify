@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>Kontakta oss</h1>
-    <form name="contact" netlify>
-        
+    <form name="contact" method="POST" netlify>
+        <input type="hidden" name="form-name" value="contact" />
         <label for="name">Namn:</label>
         <input type="text" id="name" name="name" required><br><br>
 
